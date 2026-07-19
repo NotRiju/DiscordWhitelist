@@ -1,0 +1,15 @@
+name: DiscordWhitelist
+version: 1.0.0
+main: org.notriju.discordwhitelist.DiscordWhitelistPlugin
+api-version: '1.21'
+description: Whitelists players from a Discord channel.
+author: NotRiju
+commands:
+  discordwhitelist:
+    description: Reloads the DiscordWhitelist plugin.
+    usage: /discordwhitelist reload
+    permission: discordwhitelist.reload
+permissions:
+  discordwhitelist.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
