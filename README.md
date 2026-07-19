@@ -20,7 +20,7 @@
 1. Drop the built jar into your server `plugins/` folder:
 
 	 ```bash
-	 cp target/discordwhitelist-1.0.0.jar /path/to/server/plugins/
+	      discordwhitelist-1.0.0.jar
 	 ```
 
 2. Start the server once to generate configuration files.
